@@ -1,0 +1,357 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+button{
+  cursor: pointer;
+}
+
+#wrapperWhatsApp{
+  position: fixed;
+  left: 10px;
+  bottom: 50px;
+  background-color: green;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: 4px solid white;
+  cursor: pointer;
+}
+
+.containerFirstPhase{
+  background-image: linear-gradient(to right,#400c5a, #a0209a);
+  height: 1000px;
+}
+
+.navWrapper{
+
+}
+
+.mainNav{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 80rem;
+  height: 4rem;
+  gap: 80px;
+
+  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+}
+
+.contentFirstPhase{
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img{
+    width: 600px;
+    height: 650px;
+  }
+}
+
+.textContentFistPhase{
+  text-align: start;
+  h1:first-child{
+    margin-left: 35px;
+  }
+  h1{
+    font-size: 3rem;
+    color: white;
+  }
+}
+
+.wrapperButtonsFirstPhase{
+  display: flex;
+  gap: 5px;
+  margin-top: 50px;
+}
+
+#buttonAllCourses{
+  background-color: #ec58ac;
+  padding: 10px 42px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-size: 22px;
+}
+
+#buttonShowMeMore{
+  background-color: transparent;
+  padding: 10px 42px;
+  border-radius: 50px;
+  border: 1px solid #c743b5;
+  color: #c743b5;
+  font-size: 22px;
+}
+
+.containerSecondPhase{
+  max-width: 100rem;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 140px;
+}
+
+.headerPhases{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titlePhases{
+  padding-bottom: 30px;
+  font-size: 3rem;
+  color: #b453a7;
+}
+
+#containerDescriptionSecondPhase{
+  margin-top: 10px;
+}
+
+.descriptionSecondPhase{
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.containerTopicsSecondPhase{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.topicSecondPhase{
+  max-width: 250px;
+
+  img{
+    height: 200px;
+    width: 200px;
+  }
+
+  h2{
+    color: #963898;
+    font-weight: 500;
+  }
+}
+
+.topicDescriptionSecondPhase{
+  margin-top: 25px;
+  display: flex;
+  text-align: left;
+  font-weight:600;
+}
+
+.containerThirdPhase{
+  max-width: 100%;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(63,16,92,0), rgba(63,16,92,255));
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+#wrapperContentThirdPhase{
+  width: 100rem;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+
+  img{
+    width: 30%;
+    height: 300px;
+    border-radius: 8px;
+  }
+}
+
+.container4Phase{
+  max-width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+#containerTopics4Phase{
+  width: 100rem;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.individualTopicPhase4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerImagePhase4{
+  position: relative;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  background-image: linear-gradient(rgba(155,18,145,255), rgba(243,0,145,255));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+  img{
+    width: 90px;
+    height: 90px;
+    /*CONVERT IMAGE COLOR FROM BLACK TO WHITE*/
+    filter: invert(100%);
+  }
+}
+
+.numerationImagePhase4{
+  position: absolute;
+  top: -20px;
+  right: 35px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgba(243,0,145,255);
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topicDescriptionPhase4{
+  margin-top: 20px;
+  width: 190px;
+  text-align: center;
+  border: 1px dashed rgba(243,0,145,255);
+  font-size: 1.15rem;
+  padding: 8px 10px;
+}
+
+#containerPhase5{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  background-image: linear-gradient(rgba(59,10,91,255), rgba(155,29,153,255));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#containerContentPhase5{
+  width: 100rem;
+  display: flex;
+  font-size: 1.2rem;
+}
+
+#containerHeaderAndTopics{
+  margin-left: 100px;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+
+#containerTopicsPhase5{
+  margin-top: 30px;
+  display: flex;
+  gap: 50px;
+}
+
+.sideTopicsPhase5{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.individualTopicPhase5{
+  display: flex;
+
+  img{
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    /*CONVERT IMAGE COLOR FROM BLACK TO PURPLE*/
+    filter: invert(11%) sepia(53%) saturate(7416%) hue-rotate(300deg) brightness(93%) contrast(95%);
+  }
+
+  p{
+    max-width: 300px;
+  }
+}
+
+#containerPhase6{
+  padding-top: 80px;
+  padding-bottom: 100px;
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#containerContentPhase6{
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.individualCommentPhase6{
+  position: relative;
+  padding: 30px 20px 30px 30px;
+  border: 1px solid #f3c1e0;
+  width: 350px;
+  border-radius: 16px;
+}
+
+.titleAndDescriptionCommentPhase6{
+  text-align: end;
+  font-weight: bold;
+
+  .titleComment{
+    color: #b453a7;
+    margin-bottom: 5px;
+  }
+}
+
+.quotesOnBorderPhase6{
+  position: absolute;
+  height: 20px;
+  top: -10px;
+  left: 50%;
+  color:#ef0296;
+  background-color: #FFFFFF;
+
+  img{
+    height:25px;
+    width: 25px;
+    filter: invert(27%) sepia(98%) saturate(7490%) hue-rotate(313deg) brightness(95%) contrast(104%);
+  }
+}
+
+.authorCommentPhase6{
+  margin-top: 5px;
+  display: flex;
+  gap: 10px;
+
+  img{
+    width: 30px;
+    height: 30px;
+    filter: invert(85%) sepia(13%) saturate(804%) hue-rotate(286deg) brightness(99%) contrast(93%);
+  }
+}
